@@ -116,7 +116,7 @@ a:hover {
 	-webkit-transform: rotate(0deg) scale(1.4);    /*动画为旋转至水平,放大1.4倍*/
 	-moz-transform: rotate(0deg) scale(1.4);
 	-o-transform: rotate(0deg) scale(1.4);
-	-transform: rotate(0deg) scale(1.4);
+	transform: rotate(0deg) scale(1.4);
 }
 #head ul#menu-index li.this a{
 	background: #1698F6;
