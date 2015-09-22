@@ -33,7 +33,7 @@ table {
 }
 body {
 	text-align: left;
-	font-family: 微软雅黑,宋体, Arial,Helvetica,sans-serif;
+	font-family: "微软雅黑","宋体",Arial,Helvetica,sans-serif;
 	position: relative;
 	line-height: 1;
 	font-size:12px;
@@ -176,8 +176,6 @@ a:hover {
 	height:155px;
 	float:right;
 	margin:36px 60px 0 12px;
-	border-radius: 25px;
-	overflow: hidden;
 }
 .portrait_img{
 	display: block;
