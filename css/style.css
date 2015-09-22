@@ -102,11 +102,9 @@ a:hover {
 	letter-spacing:1px;
 	-webkit-transform: rotate(-10deg);                /*文字歪曲10度*/
         -moz-transform: rotate(-10deg);
-        -o-transform: rotate(-10deg);
         transform: rotate(-10deg);
 	-webkit-transition:all 0.2s ease-in; /*动画为0.2s,ease-in效果*/
 	-moz-transition:all 0.2s ease-in;
-	-o-transition:all 0.2s ease-in;
 	transition:all 0.2s ease-in;
 }
 #head ul#menu-index li a:hover{
@@ -114,7 +112,6 @@ a:hover {
 	text-shadow:0px 1px 1px #333; 
 	-webkit-transform: rotate(0deg) scale(1.4);    /*动画为旋转至水平,放大1.4倍*/
 	-moz-transform: rotate(0deg) scale(1.4);
-	-o-transform: rotate(0deg) scale(1.4);
 	transform: rotate(0deg) scale(1.4);
 }
 #head ul#menu-index li.this a{
@@ -179,23 +176,20 @@ a:hover {
 	height:155px;
 	float:right;
 	margin:36px 60px 0 12px;
+	border-radius: 25px;
+	overflow: hidden;
 }
 .portrait_img{
+	display: block;
 	width:155px;
 	height:155px;
-	float:right;
 }
-.portrait_cover{
-	display:none;
-	position:absolute;
-	left:0;
-	top:0;
-	z-index:2;
-	width:155px;
-	height:155px;
-	background:url(../images/potrait_cover.png) no-repeat;
-	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale, src='../images/potrait_cover.png');
-	_background:none;
+.ripple-wrap {
+	position: relative;
+}
+.ripple-wrap canvas {
+	position: absolute;
+	z-index: 1;
 }
 #body h3{
 	font-size:16px;
