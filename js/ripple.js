@@ -72,6 +72,7 @@ function ripple(img) {
             _height = height,
             _ripplemap = ripplemap,
             _last_map = last_map,
+
             _rd = ripple.data,
             _td = texture.data,
             _half_width = half_width,
